@@ -27,7 +27,7 @@ Os endereços oficiais estão definidos no objeto `contactLinks` do arquivo `scr
 
 ```js
 const contactLinks = {
-  whatsapp: "https://wa.me/5514998417616?...",
+  whatsapp: "https://wa.me/5514996417616?...",
   instagram: "https://www.instagram.com/alegoncalvesp/",
 };
 ```
