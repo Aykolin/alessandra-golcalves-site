@@ -2,6 +2,10 @@
 
 Site responsivo desenvolvido para apresentar o portfólio e os serviços da Alessandra MakeUp, com contato direto pelo WhatsApp e acesso ao Instagram.
 
+O website foi criado como trabalho para o Bootcamp Desenvolvimento Web Responsivo da graduação em Ciência da Computação.
+
+**Visualização:** [alessandramakeup.kauanystudio.com.br](https://alessandramakeup.kauanystudio.com.br/)
+
 ## Tecnologias
 
 - HTML5 para a estrutura semântica do conteúdo
@@ -34,6 +38,6 @@ const contactLinks = {
 
 ## Execução local
 
-O site pode ser aberto diretamente pelo arquivo `index.html`. Para testar em um servidor local, utilize qualquer servidor estático de sua preferência.
+Para testar localmente, sirva esta pasta com um servidor estático e abra a página inicial pelo endereço raiz do servidor. Os links entre páginas usam esse endereço como referência.
 
 As galerias utilizam as fotografias fornecidas para o projeto, organizadas por categoria de serviço.

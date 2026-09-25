@@ -1,5 +1,14 @@
 document.documentElement.classList.add("js");
 
+if (window.location.protocol === "http:" || window.location.protocol === "https:") {
+  const pageUrl = new URL(window.location.href);
+  if (pageUrl.pathname.endsWith("/index.html")) {
+    pageUrl.pathname = pageUrl.pathname.slice(0, -"index.html".length);
+    pageUrl.searchParams.delete("rev");
+    window.history.replaceState(null, "", pageUrl);
+  }
+}
+
 const menuButton = document.querySelector(".menu-button");
 const navigation = document.querySelector(".main-nav");
 
