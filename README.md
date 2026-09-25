@@ -23,7 +23,12 @@ O projeto não utiliza frameworks, bibliotecas externas, backend ou sistema pró
 - `micropigmentacao.html`: portfólio de micropigmentação
 - `styles.css`: estilos e adaptação para computador, tablet e celular
 - `script.js`: interações e configuração dos contatos
+- `vercel.json`: configuração das URLs públicas sem a extensão `.html`
 - `assets/`: imagens utilizadas na interface
+
+## URLs públicas
+
+Na Vercel, as páginas são acessadas por `/`, `/galeria`, `/maquiagem`, `/design-sobrancelhas` e `/micropigmentacao`. Os endereços antigos terminados em `.html` redirecionam para essas URLs.
 
 ## Contatos configurados
 
